@@ -1,0 +1,12 @@
+{
+    "id": 1,
+    "fname": "Dave",
+    "lname": "King",
+    "image": "https://randomuser.me/api/portraits/men/1.jpg",
+    "phone": "412-555-5353",
+    "email": "dking@randomuser.me",
+    "addr1": "7125 Bruce St.",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "zip": "15275"
+}

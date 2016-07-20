@@ -1,0 +1,12 @@
+{
+    "id": 2,
+    "fname": "John",
+    "lname": "Doe",
+    "image": "https://randomuser.me/api/portraits/men/2.jpg",
+    "phone": "412-555-5151",
+    "email": "john.doe@randomuser.me",
+    "addr1": "3245 Tawas St",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "zip": "15275"
+}

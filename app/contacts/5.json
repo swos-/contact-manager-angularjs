@@ -1,0 +1,12 @@
+{
+    "id": 5,
+    "fname": "Juan",
+    "lname": "Lynch",
+    "image": "https://randomuser.me/api/portraits/men/4.jpg",
+    "phone": "412-444-9201",
+    "email": "jlynch@yahoo.com",
+    "addr1": "3 S. Pumpkin Hill Lane",
+    "city": "Brick",
+    "state": "NJ",
+    "zip": "08723"
+}

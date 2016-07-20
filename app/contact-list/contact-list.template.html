@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-2">
+            <div class="form-group">
+                <input ng-model="$ctrl.query" type="text" class="form-control" placeholder="Filter">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Contacts</h3>
+              </div>
+              <div class="panel-body">
+                  <ul class="media-list">
+                      <li class="media" ng-repeat="contact in $ctrl.contacts | filter:$ctrl.query | orderBy:$ctrl.orderBy">
+                          <div class="media-left media-middle">
+                              <img class="media-object img-circle" ng-src="{{contact.thumbnail}}">
+                          </div>
+                          <div class="media-body">
+                              <a href="#!/contacts/{{contact.id}}" class="list-group-item">
+                                  <h4 class="media-heading">{{contact.fname}} {{contact.lname}}</h4>
+                                  <p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> {{contact.phone}}</p>
+                                  <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> {{contact.email}}</p>
+                              </a>
+                          </div>
+                      </li>
+                  </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+{
+    "id": 4,
+    "fname": "Samuel",
+    "lname": "Ross",
+    "image": "https://randomuser.me/api/portraits/men/3.jpg",
+    "phone": "412-102-8139",
+    "email": "samuel.ross@example.com",
+    "addr1": "7876 Victoria Dr",
+    "city": "Santa Ana",
+    "state": "Oregon",
+    "zip": "69974"
+}

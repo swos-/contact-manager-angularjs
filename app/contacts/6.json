@@ -1,0 +1,12 @@
+{
+    "id": 6,
+    "fname": "Lois",
+    "lname": "Austin",
+    "image": "https://randomuser.me/api/portraits/women/2.jpg",
+    "phone": "237-815-2527",
+    "email": "lois.austin32@hotmail.com",
+    "addr1": "7626 Deerfield Ave.",
+    "city": "Rocklin",
+    "state": "CA",
+    "zip": "95677"
+}
