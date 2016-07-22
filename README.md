@@ -8,11 +8,11 @@ Live URL: http://samples.john-austin.com/contact-manager-angularjs/
 * This list can be filtered by any of a contact's defined attributes (e.g.: first name, last name, phone number, e-mail address)
 * Clicking on a user will display that user's details
 * Sorting
+* Paginating contact list
 
 # Future functionality
 * Provide complete set of CRUD functionality (namely create, update, delete)
 * Validation when creating and updating contacts
-* Add pagination
 
 
 # This application demonstrates
