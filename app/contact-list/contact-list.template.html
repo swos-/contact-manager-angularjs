@@ -2,7 +2,15 @@
     <div class="row">
         <div class="col-md-2">
             <div class="form-group">
-                <input ng-model="$ctrl.query" type="text" class="form-control" placeholder="Filter">
+                <label for="filter-list">Filter list:</label>
+                <input id="filter-list" ng-model="$ctrl.query" type="text" class="form-control" placeholder="Name, Phone, E-mail">
+            </div>
+            <div class="form-group">
+                <label for="sort-by">Sort by:</label>
+                <select class="form-control" id="sort-by" ng-model="$ctrl.orderBy">
+                    <option value="lname">Last Name</option>
+                    <option value="email">E-mail</option>
+                </select>
             </div>
         </div>
         <div class="col-md-4">
@@ -12,7 +20,7 @@
               </div>
               <div class="panel-body">
                   <ul class="media-list">
-                      <li class="media" ng-repeat="contact in $ctrl.contacts | filter:$ctrl.query | orderBy:$ctrl.orderBy">
+                      <li class="media" dir-paginate="contact in $ctrl.contacts | filter:$ctrl.query | orderBy:$ctrl.orderBy | itemsPerPage: 5">
                           <div class="media-left media-middle">
                               <img class="media-object img-circle" ng-src="{{contact.thumbnail}}">
                           </div>
@@ -24,6 +32,7 @@
                               </a>
                           </div>
                       </li>
+                      <dir-pagination-controls></dir-pagination-controls>
                   </ul>
               </div>
             </div>

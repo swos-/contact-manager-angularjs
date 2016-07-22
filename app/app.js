@@ -4,5 +4,6 @@ angular.module('contactManager', [
   'ngRoute',
   'shared',
   'contactList',
-  'contactDetail'
+  'contactDetail',
+  'angularUtils.directives.dirPagination'
 ]);

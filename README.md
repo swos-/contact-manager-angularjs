@@ -5,14 +5,15 @@ Live URL: http://samples.john-austin.com/contact-manager-angularjs/
 
 # Current functionality
 * By default, reads in a list of contacts, provided as json files
-* This list can be filtered by any of a contact's defined attributes (e.g.: first name, last name, phone number)
+* This list can be filtered by any of a contact's defined attributes (e.g.: first name, last name, phone number, e-mail address)
 * Clicking on a user will display that user's details
+* Sorting
+* Paginating contact list
 
 # Future functionality
 * Provide complete set of CRUD functionality (namely create, update, delete)
 * Validation when creating and updating contacts
-* Add pagination
-* Sorting
+
 
 # This application demonstrates
 * The structure of an AngularJS application with read-only data
