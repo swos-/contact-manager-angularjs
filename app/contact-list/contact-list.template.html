@@ -20,7 +20,7 @@
               </div>
               <div class="panel-body">
                   <ul class="media-list">
-                      <li class="media" ng-repeat="contact in $ctrl.contacts | filter:$ctrl.query | orderBy:$ctrl.orderBy">
+                      <li class="media" dir-paginate="contact in $ctrl.contacts | filter:$ctrl.query | orderBy:$ctrl.orderBy | itemsPerPage: 5">
                           <div class="media-left media-middle">
                               <img class="media-object img-circle" ng-src="{{contact.thumbnail}}">
                           </div>
@@ -32,6 +32,7 @@
                               </a>
                           </div>
                       </li>
+                      <dir-pagination-controls></dir-pagination-controls>
                   </ul>
               </div>
             </div>
